@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4475962365061492987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4475962365061492989}
+  - component: {fileID: 4475962365061492986}
+  m_Layer: 0
+  m_Name: RoomGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475962365061492989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475962365061492987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -79.16063, y: 14.073579, z: 21.51579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4475962365061492986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475962365061492987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d2729871967e742bcd76df844c0657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomsToGenerate: 30
+  spawnRoom:
+    sizeX: 3
+    sizeY: 3
+    baseX: 0
+    baseY: 0
+    doorL:
+    - offset: 0
+      doorGO: {fileID: 0}
+    - offset: 1
+      doorGO: {fileID: 0}
+    - offset: 2
+      doorGO: {fileID: 0}
+    doorR:
+    - offset: 0
+      doorGO: {fileID: 0}
+    - offset: 1
+      doorGO: {fileID: 0}
+    - offset: 2
+      doorGO: {fileID: 0}
+    doorT:
+    - offset: 0
+      doorGO: {fileID: 0}
+    - offset: 1
+      doorGO: {fileID: 0}
+    - offset: 2
+      doorGO: {fileID: 0}
+    doorB:
+    - offset: 0
+      doorGO: {fileID: 0}
+    - offset: 1
+      doorGO: {fileID: 0}
+    - offset: 2
+      doorGO: {fileID: 0}
+    roomGO: {fileID: 6452068339301033721, guid: c385794f1083633459cfe737fe88e7ff,
+      type: 3}
+  roomsDB:
+    data:
+    - type: Small
+      rooms:
+      - sizeX: 3
+        sizeY: 3
+        baseX: 0
+        baseY: 0
+        doorL:
+        - offset: 0
+          doorGO: {fileID: 0}
+        - offset: 1
+          doorGO: {fileID: 0}
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorR:
+        - offset: 0
+          doorGO: {fileID: 0}
+        - offset: 1
+          doorGO: {fileID: 0}
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorT:
+        - offset: 0
+          doorGO: {fileID: 0}
+        - offset: 1
+          doorGO: {fileID: 0}
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorB:
+        - offset: 0
+          doorGO: {fileID: 0}
+        - offset: 1
+          doorGO: {fileID: 0}
+        - offset: 2
+          doorGO: {fileID: 0}
+        roomGO: {fileID: 6452068339301033721, guid: c385794f1083633459cfe737fe88e7ff,
+          type: 3}
+      - sizeX: 3
+        sizeY: 3
+        baseX: 0
+        baseY: 0
+        doorL:
+        - offset: 1
+          doorGO: {fileID: 0}
+        doorR:
+        - offset: 1
+          doorGO: {fileID: 0}
+        doorT: []
+        doorB:
+        - offset: 1
+          doorGO: {fileID: 0}
+        roomGO: {fileID: 1744006794233944518, guid: f9855b9dab129f646ab1d18ee4999c68,
+          type: 3}
+    - type: Medium
+      rooms:
+      - sizeX: 5
+        sizeY: 6
+        baseX: 0
+        baseY: 0
+        doorL:
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorR:
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorT:
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorB:
+        - offset: 2
+          doorGO: {fileID: 0}
+        roomGO: {fileID: 8856713164331380868, guid: 9826cf732daae114199737f292845b8c,
+          type: 3}
+      - sizeX: 5
+        sizeY: 6
+        baseX: 0
+        baseY: 0
+        doorL:
+        - offset: 3
+          doorGO: {fileID: 0}
+        doorR:
+        - offset: 3
+          doorGO: {fileID: 0}
+        doorT:
+        - offset: 2
+          doorGO: {fileID: 0}
+        doorB:
+        - offset: 2
+          doorGO: {fileID: 0}
+        roomGO: {fileID: 3320878411471503677, guid: 0eda06fa40e25d94ebcce540ef326c34,
+          type: 3}
+  dungeonBoundary: 0
+  gos: []
